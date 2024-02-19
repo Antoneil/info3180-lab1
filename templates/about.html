@@ -3,9 +3,12 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+
 </head>
 <body>
  <h1>Antoneil Singh</h1>
+ <img class="profile-pic" src="{{ url_for('static', filename='profile.jpg') }}" alt="Profile Image" />
  <p>My name is Antoneil Singh, I am currently pursuing a major in computer science at the University of the West Indies. With a keen interest in digital media courses, I have demonstrated a profound enthusiasm for exploring the intersection of technology and creativity. I find joy in the world of literature and cinematic experiences. In addition to my academic pursuits, I enjoy embarking on excursions, embracing the opportunity to discover new places and cultures.</p>
 </body>
 </html> 
